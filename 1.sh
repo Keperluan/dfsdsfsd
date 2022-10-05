@@ -59,6 +59,7 @@ while [ $opt != '' ]
         2) clear;
             option_picked "Iklan dulu";
             python -m webbrowser https://google.com
+            w3m www.google.com
             printf "sudo mount /dev/sdi1 /mnt/usbDrive; #The 500 gig drive";
             show_menu;
         ;;
